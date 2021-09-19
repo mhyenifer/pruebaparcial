@@ -1,0 +1,128 @@
+body *{
+    box-sizing: border-box;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-image: lightblue; 
+
+}
+
+header img{
+
+    margin: auto;
+    width: 400px;
+
+}
+
+header h1, 
+header h2, 
+header h3{
+
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+header nav{
+    background-color: mediumturquoise;
+}
+
+nav li{
+
+    display: inline-block;
+}
+
+header a{
+
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+
+    background: lightblue;
+
+}
+main{
+    background-color:white;
+}
+ 
+img{
+    margin: auto;
+    width: 400px;
+}
+
+.row2cols{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 10px;
+}
+
+.row2cols label{
+    background-color: whitesmoke;
+    color:black;
+    padding: 10px;
+    text-align:justify;
+}
+
+.row2cols input,
+.row2cols textarea{
+    background-color:whitesmoke;
+    color:black;
+    padding: 10px;
+    text-align: justify;
+
+
+}
+
+input[type="submit"]{
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="reset"]{
+    background-color: grey;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background: lightblue;
+    margin: 100px;
+}
+fieldset h1{
+    color:black;
+}
+
+.botonesAlineados {
+    float: left;
+}
+
+nav footer{
+    background: lightseagreen;
+    padding: 20px;
+    color:black;
+}
+
+@media screen and (max-width: 600px) {
+    .row2cols{
+   
+    grid-template-columns: 1fr;
+ 
+    }   
+}

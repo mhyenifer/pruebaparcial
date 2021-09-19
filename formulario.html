@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--encabezado-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Veterinaria</title>
+
+ <link rel="stylesheet" href="../styles/formulario.css">
+</head>
+
+<!--cuerpo-->
+<body>
+    <header>
+
+        <img src="../images/slogan.jpg.jpg" alt="logotipo">
+        <h1> Clinica Veterinaria</h1>
+        <h2>HUELLITAS</h2>
+        <br>
+        <h3>Tu mascota es lo mas importante para nosotros</h3>
+        <br>
+
+        <nav>
+            <ul>
+                <li> <a href="../index.html" little="Inicio">Inicio</a></li>
+                <li> <a href="../pages/quienesSomos.html" little="Quienes Somos">Quienes Somos</a></li>
+                <li><a href="../pages/servicios.html" title="Servicios"> Servicios</a></li>
+                <li><a href="../pages/contactanos.html" title="Contactanos">Contactanos</a></li>
+              <ul> 
+        </nav>
+
+    </header>
+        
+    <br><br><img src="../images/servicios.jpg.jpg" alt="">
+     
+    <main>
+        <form action="">
+            <fieldset>
+               
+                <legend>
+                    <br> <br>  <br>
+                    <h1>Información o Cotización de Servicio</h1>
+                </legend>
+                <br>
+    
+                <div class="row2cols">
+                    <label for="nombre">Nombre</label>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           placeholder="Ingrese Nombre completo"
+                           required>
+        
+                </div>
+        
+                <div class="row2cols">
+                    <label for="Direccion">Dirección</label>
+                    <input type="text"
+                           id="direccion"
+                           name="direccion"
+                           placeholder="Ingrese dirección"
+                           required>
+        
+                </div>
+                
+                <div class="row2cols">
+                    <label for="E-mail">E-mail</label>
+                         <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Ingrese su correo electronico"
+                           required>
+        
+                </div>
+            
+                
+                <div class="row2cols">
+                    <label for="mensaje">Solicitud</label>
+                    <textarea name="mensaje" 
+                              id="mensaje" 
+                              rows="10" 
+                              required minlength="50">
+                    </textarea>
+                </div>
+    
+                <div class="row2cols">
+                    <label for="Nombre Cotizacion">Cotización</label>
+                    <input type="text"
+                           id="cotizacion"
+                           name="cotizacion"
+                           placeholder="Ingrese nombre cotización"
+                           required>
+        
+                </div>
+        
+                <div class="row2cols">
+                    <div></div>
+                    <div>
+    
+                        <div class="botonesAlineados">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <div class="botonesAlineados">
+                            <input type="reset" value="Cancelar">
+                        </div>
+    
+                    </div>
+                    
+                    
+                
+                </div>
+                
+            </fieldset>
+    </main>
+    <!--Pie de pagina-->
+    <nav>
+        <footer>
+            <h6>Copyright Yenifer 2021</h6>
+        </footer>
+    </nav>
+
+    
+</body>
+</html>
